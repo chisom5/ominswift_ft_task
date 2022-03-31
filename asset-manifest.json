@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.d4b16733.css",
-    "main.js": "/static/js/main.7a03dfde.js",
-    "static/js/787.673adedc.chunk.js": "/static/js/787.673adedc.chunk.js",
-    "static/media/Lato-Regular.ttf": "/static/media/Lato-Regular.9d883d540ee2b4de8024.ttf",
-    "index.html": "/index.html",
-    "main.d4b16733.css.map": "/static/css/main.d4b16733.css.map",
-    "main.7a03dfde.js.map": "/static/js/main.7a03dfde.js.map",
-    "787.673adedc.chunk.js.map": "/static/js/787.673adedc.chunk.js.map"
+    "main.css": "/ominswift_ft_task/static/css/main.23a3848d.css",
+    "main.js": "/ominswift_ft_task/static/js/main.9c17d9f5.js",
+    "static/js/787.673adedc.chunk.js": "/ominswift_ft_task/static/js/787.673adedc.chunk.js",
+    "static/media/Lato-Regular.ttf": "/ominswift_ft_task/static/media/Lato-Regular.9d883d540ee2b4de8024.ttf",
+    "index.html": "/ominswift_ft_task/index.html",
+    "main.23a3848d.css.map": "/ominswift_ft_task/static/css/main.23a3848d.css.map",
+    "main.9c17d9f5.js.map": "/ominswift_ft_task/static/js/main.9c17d9f5.js.map",
+    "787.673adedc.chunk.js.map": "/ominswift_ft_task/static/js/787.673adedc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4b16733.css",
-    "static/js/main.7a03dfde.js"
+    "static/css/main.23a3848d.css",
+    "static/js/main.9c17d9f5.js"
   ]
 }
