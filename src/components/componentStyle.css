@@ -1,0 +1,136 @@
+.modalContent-wrapper-header {
+  display: flex;
+  justify-content: space-between;
+}
+.modalContent-wrapper-header .header_center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header_center h4 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #4f4f4f;
+  margin-bottom: 0px;
+}
+
+.header_center span {
+  font-weight: 400;
+  width: 240px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 14px;
+  color: #4f4f4f;
+  margin-top: 10px;
+}
+
+.header_center h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #333333;
+  margin-top: 6px;
+  margin-bottom: 10px;
+}
+
+.header_center p {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #333333;
+}
+
+.modalContent-wrapper-forProfile {
+  margin-top: 4.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.forProfile-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.forProfile-row div {
+  display: flex;
+}
+.forProfile-row .forProfile-row-label {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+}
+.forProfile-row .forProfile-row-value {
+  margin-left: 18px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+}
+
+.modalContent .table_fullWidth {
+  width: 100%;
+  margin-bottom: 1.2rem;
+}
+
+.table_fullWidth table,
+.table_small table {
+  width: 100%;
+}
+.table_fullWidth table > thead > tr th,
+.table_small table > thead > tr th {
+  background-color: #0d7590;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  padding: 13px 20px;
+}
+.modalContent .table_small {
+  width: 65%;
+}
+.table_small table > thead > tr th {
+  text-transform: uppercase;
+}
+.table_fullWidth table > tbody > tr:nth-child(odd) td,
+.table_small table > tbody > tr:nth-child(odd) td {
+  background-color: #f2f2f2;
+  padding: 13px 20px;
+}
+
+.table_fullWidth table > tbody > tr:nth-child(even) td,
+.table_small table > tbody > tr:nth-child(even) td {
+  background-color: #ffffff;
+  padding: 13px 20px;
+}
+
+.forRemark {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+.forRemark .forRemark-label {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+}
+.forRemark .forRemark-value {
+  margin-left: 3px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #0d7590;
+}
+
+.registrar-container {
+  margin-top: 7rem;
+}
+.registrar-line {
+  width: 163px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+}

@@ -1,0 +1,142 @@
+.App {
+  width: 85%;
+  height: 100vh;
+  margin-top: 52px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.App-header {
+  background-color: transparent;
+  margin-bottom: 3.375rem;
+}
+
+.App-header p {
+  color: #343434;
+  letter-spacing: 0.047rem;
+  font-size: 2.25rem;
+  font-weight: 900;
+}
+
+.App-section-bg {
+  background-color: #ffffff;
+}
+
+.App-section-filter {
+  margin-bottom: 2.688rem;
+  padding: 2.5rem 1.75rem 1.98rem 1.75rem;
+}
+.App-section-filter h3 {
+  letter-spacing: 0.1px;
+  color: #616161;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  margin-bottom: 2.45rem;
+}
+
+.form-row {
+  display: flex;
+  width: 100%;
+}
+
+.form-row .MuiFormControl-root {
+  width: 312px !important;
+  margin-right: 2rem;
+  margin-bottom: 2.59rem;
+}
+.form-row .btn-search {
+  width: 310px;
+  height: 54px;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+}
+.form-row .form-input-gender {
+  width: 310px !important;
+}
+.App-section-table {
+  padding: 2.625rem 2.813rem 2.438rem 1.75rem;
+  height: 400px;
+  width: 100%;
+}
+.App-section-table .ant-table {
+  width: auto;
+  height: 100%;
+  box-sizing: content-box;
+  overflow-x: hidden;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-width: normal;
+}
+
+.ant-table::-webkit-scrollbar {
+  width: 22px;
+}
+
+.ant-table::-webkit-scrollbar-button {
+  display: none;
+}
+.ant-table::-webkit-scrollbar-track {
+  background-color: #f8f8f8;
+}
+
+.ant-table::-webkit-scrollbar-thumb {
+  background-color: #46c35f;
+  border-radius: 20px;
+  border: 0.48em solid #f8f8f8;
+}
+
+.App-section-table .ant-table-wrapper,
+.App-section-table .ant-spin-nested-loading,
+.App-section-table .ant-spin-container {
+  height: 100%;
+}
+.ant-table .ant-spin-nested-loading > div {
+  display: contents;
+}
+.App-section-table .ant-spin-container .ant-spin-blur {
+  height: auto;
+}
+
+.App-section-table .ant-table-thead > tr > th {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #343434;
+  padding: 15px;
+  border-bottom: 0px;
+}
+
+.App-section-table .ant-table-thead > tr > td {
+  padding: 12px 16px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.75px;
+  color: #343434;
+}
+.App-section-table .ant-table-thead > tr > th::before {
+  height: 0px !important;
+}
+
+.btn-color {
+  background-color: #46c35f;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.75px;
+}
+.btn-table {
+  padding: 12px 14px;
+  height: auto;
+}
+
+.ant-table-ping-right,
+.ant-table-ping-left {
+  width: auto;
+}
